@@ -1,3 +1,6 @@
-console.log('hello node js');
+const people = require('./peaple');
+const car = require('./car');
 
-const a = 'asd';
+console.log(car.name);
+car.car();
+console.log(people);
