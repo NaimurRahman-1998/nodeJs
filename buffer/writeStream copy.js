@@ -8,7 +8,3 @@ streamData.on('data', (chunk) => {
     writeStream.write(chunk)
 });
 
-streamData.on('data', (chunk) => { 
-    writeStream.write(chunk)
-});
-
