@@ -5,9 +5,12 @@
   },
   "dependencies": {
     "eslint-config-wesbos": "^3.2.3",
+    "express": "^4.18.2",
     "lodash": "^4.17.21"
   },
   "eslintConfig": {
-    "extends": ["wesbos"]
+    "extends": [
+      "wesbos"
+    ]
   }
 }
